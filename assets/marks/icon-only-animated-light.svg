@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none" role="img" aria-label="Levidev Studio icon">
+  <defs>
+    <style>
+      .bar-a { transform-origin: 62px 394px; animation: bar-grow 4.6s cubic-bezier(0.22, 1, 0.36, 1) infinite; }
+      .bar-b { transform-origin: 96px 414px; animation: bar-grow-b 4.6s cubic-bezier(0.22, 1, 0.36, 1) infinite; }
+      .rose-a { transform-origin: 157px 345px; animation: rose-slide-a 4.6s cubic-bezier(0.22, 1, 0.36, 1) infinite; }
+      .rose-b { transform-origin: 174px 368px; animation: rose-slide-b 4.6s cubic-bezier(0.22, 1, 0.36, 1) infinite; }
+      @keyframes bar-grow { 0%, 6% { transform: scaleY(0.15); opacity: 0.3; } 24%, 86% { transform: scaleY(1); opacity: 1; } 96%, 100% { transform: scaleY(0.15); opacity: 0.3; } }
+      @keyframes bar-grow-b { 0%, 12% { transform: scaleY(0.15); opacity: 0.3; } 30%, 86% { transform: scaleY(1); opacity: 1; } 96%, 100% { transform: scaleY(0.15); opacity: 0.3; } }
+      @keyframes rose-slide-a { 0%, 20% { transform: translate(-14px, 8px); opacity: 0; } 38%, 86% { transform: translate(0, 0); opacity: 1; } 96%, 100% { transform: translate(-14px, 8px); opacity: 0; } }
+      @keyframes rose-slide-b { 0%, 28% { transform: translate(-14px, 8px); opacity: 0; } 46%, 86% { transform: translate(0, 0); opacity: 1; } 96%, 100% { transform: translate(-14px, 8px); opacity: 0; } }
+      @media (prefers-reduced-motion: reduce) {
+        .bar-a, .bar-b, .rose-a, .rose-b { animation: none !important; opacity: 1 !important; transform: none !important; }
+      }
+    </style>
+  </defs>
+  <rect width="512" height="512" fill="#f0e7d6"/>
+  <g transform="translate(144.37 102.28) scale(1.220000) translate(-50 -162)">
+    <rect class="bar-a" fill="#B2A994" x="50" y="162" width="24" height="232" rx="12"/>
+    <rect class="bar-b" fill="#B2A994" x="84" y="180" width="24" height="234" rx="12"/>
+    <path class="rose-a" fill="#98585C" d="M115 352 L177 316 L199 327 L115 375 Z"/>
+    <path class="rose-b" fill="#98585C" d="M115 390 L212 335 L233 347 L136 402 Z"/>
+  </g>
+</svg>

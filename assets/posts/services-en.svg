@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080" fill="none" role="img" aria-label="Five kinds of work at Levidev Studio">
+  <rect width="1080" height="1080" fill="#f0e7d6"/>
+  <text x="80" y="130" font-family="IBM Plex Sans, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="42" font-weight="700" fill="#14110d">What the studio does</text>
+  <g transform="translate(760 150) scale(0.9) translate(-141.5 -282)">
+    <rect fill="#B2A994" x="50" y="162" width="24" height="232" rx="12"/>
+    <rect fill="#B2A994" x="84" y="180" width="24" height="234" rx="12"/>
+    <path fill="#98585C" d="M115 352 L177 316 L199 327 L115 375 Z"/>
+    <path fill="#98585C" d="M115 390 L212 335 L233 347 L136 402 Z"/>
+  </g>
+  <g font-family="IBM Plex Mono, ui-monospace, SFMono-Regular, Menlo, monospace" font-size="22" font-weight="600" fill="#98585c">
+    <text x="80" y="280">01</text>
+    <text x="80" y="380">02</text>
+    <text x="80" y="480">03</text>
+    <text x="80" y="580">04</text>
+    <text x="80" y="680">05</text>
+  </g>
+  <g font-family="IBM Plex Sans, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="40" font-weight="700" fill="#14110d">
+    <text x="150" y="284">Software</text>
+    <text x="150" y="384">Games</text>
+    <text x="150" y="484">AI</text>
+    <text x="150" y="584">Interface</text>
+    <text x="150" y="684">Publishing</text>
+  </g>
+  <text x="80" y="980" font-family="IBM Plex Mono, ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20" fill="#6a6355">Levidev Studio &#183; levidev.studio</text>
+</svg>

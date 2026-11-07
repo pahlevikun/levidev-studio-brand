@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Kopsurat — Levidev Studio (PT. Levidev Studio Digital)</title>
+<style>
+  @page { size: A4; margin: 0; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 210mm; min-height: 297mm; height: auto; }
+  body {
+    font-family: "Avenir Next", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #14110d; background: #ffffff;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+  .page { position: relative; width: 210mm; min-height: 297mm; height: auto; overflow: visible; }
+
+  /* Header */
+  .header { background: #f0e7d6; height: 38mm; padding: 6.5mm 15mm 0 15mm;
+            display: flex; justify-content: space-between; align-items: flex-start; }
+  .header img.logo { width: 64mm; height: auto; display: block; }
+  .legal { text-align: right; padding-top: 3.2mm; }
+  .legal .pt { font-size: 10.5pt; font-weight: 700; letter-spacing: .02em; color: #14110d; }
+  .legal .tag { font-size: 7.5pt; color: #595246; margin-top: 1.6mm; letter-spacing: .04em; }
+  .legal .web { font-size: 8pt; font-weight: 600; color: #98585C; margin-top: 1.2mm; letter-spacing: .05em; }
+  .accent { height: 0.7mm; background: #98585C; }
+  .accent-thin { height: 0.25mm; background: #B2A994; }
+
+  /* Body — safe print margins */
+  .body { padding: 12mm 20mm 28mm 20mm; font-size: 10.5pt; line-height: 1.65; min-height: 215mm; }
+  .meta { width: 100%; border-collapse: collapse; font-size: 10pt; margin-bottom: 8mm; }
+  .meta td { padding: 0.6mm 0; vertical-align: top; }
+  .meta td.k { width: 26mm; color: #595246; }
+  .meta td.s { width: 5mm; text-align: center; color: #595246; }
+  .recipient { margin-bottom: 7mm; }
+  p { margin-bottom: 4.5mm; text-align: justify; }
+  .sign { margin-top: 14mm; }
+  .sign .space { height: 22mm; }
+  .placeholder { color: #98585C; }
+
+  /* Footer */
+  .footer { position: absolute; left: 15mm; right: 15mm; bottom: 10mm;
+            border-top: 0.25mm solid #B2A994; padding-top: 2.5mm;
+            display: flex; justify-content: space-between;
+            font-size: 6.8pt; color: #595246; letter-spacing: .03em; }
+  .footer .web { color: #98585C; font-weight: 600; }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="header">
+    <img class="logo" src="letterhead-lockup.svg" alt="Levidev Studio">
+    <div class="legal">
+      <div class="pt">PT. Levidev Studio Digital</div>
+      <div class="tag">STUDIO PERANGKAT LUNAK &nbsp;·&nbsp; BOGOR, INDONESIA</div>
+      <div class="web">levidev.studio</div>
+    </div>
+  </div>
+  <div class="accent"></div>
+  <div class="accent-thin"></div>
+
+  <div class="body" aria-label="Area isi surat"><!-- Tulis isi surat di sini --></div>
+
+  <div class="footer">
+    <span>PT. Levidev Studio Digital</span>
+    <span>Bogor, Jawa Barat, Indonesia</span>
+    <span class="web">levidev.studio</span>
+  </div>
+</div>
+</body>
+</html>

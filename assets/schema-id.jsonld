@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Levidev Studio",
+  "description": "Levidev Studio membantu organisasi mengubah ide menjadi perangkat lunak. Kami software house yang memadukan rekayasa matang dan ide segar. Mari mulai perjalanan software bersama. Kesuksesan Anda jadi tujuan kami. Kami bermitra dengan tim di seluruh dunia untuk merancang antarmuka, membangun software dan game, mengembangkan sistem AI, serta merilis produk yang bisa diandalkan. Kecepatan, inovasi, ketepatan, dan kedalaman teknis jadi inti cara kerja kami. Hasil Anda yang kami utamakan. Kami merancang antarmuka. Kami juga mempublikasikan software. Siap memulai perjalanan transformasi? Hubungi saya di LinkedIn (https://www.linkedin.com/in/pahlevikun) dan mari bicarakan proyek Anda.",
+  "url": "https://levidev.studio/",
+  "image": "https://levidev.studio/REPLACE-WITH-HOSTED-LOGO.png",
+  "email": "hello@levidev.studio",
+  "inLanguage": "id",
+  "areaServed": "Worldwide",
+  "knowsLanguage": ["id", "en"],
+  "founder": {
+    "@type": "Person",
+    "name": "Farhan Yuda Pahlevi",
+    "url": "https://pahlevikun.id/"
+  },
+  "sameAs": [
+    "https://levidev.studio/",
+    "https://pahlevikun.id/",
+    "https://github.com/pahlevikun",
+    "https://www.linkedin.com/in/pahlevikun"
+  ]
+}

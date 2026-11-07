@@ -1,0 +1,25 @@
+{
+  "title": "Levidev Studio — Brand Identity & Logo Kit",
+  "sections": [
+    {
+      "heading": "1. Icon Only (Symbol)",
+      "body": "Two rounded stone pillars (#B2A994) and two isometric rose strokes (#98585C) in light, dark, and animated SVG.",
+      "assets": ["../marks/icon-only-light.svg", "../marks/icon-only-dark.svg", "../marks/icon-only-animated.svg"]
+    },
+    {
+      "heading": "2. Icon + Word Lockup (Square & Horizontal)",
+      "body": "Balanced combination mark pairing the original geometric symbol with outlined Avenir Roman typography and tracked STUDIO label.",
+      "assets": ["../icon.svg", "../icon-dark.svg", "../wordmark.svg", "../wordmark-dark.svg"]
+    },
+    {
+      "heading": "3. Full-Text Wordmark (Square & Wide)",
+      "body": "Typographic lockup led by the signature rose bar (#98585C) above Levidev and tracked STUDIO in light, dark, and animated SVG.",
+      "assets": ["../marks/wordmark-text-light.svg", "../marks/wordmark-text-dark.svg", "../marks/wordmark-wide-light.svg", "../marks/wordmark-wide-dark.svg"]
+    },
+    {
+      "heading": "4. Three-Column Hero Banners (Dark & Light)",
+      "body": "904x256 README and profile banners with animated strokes, cursor blink, and the five-service studio index.",
+      "assets": ["../logo.svg", "../logo-animated.svg", "../logo-light.svg", "../logo-light-animated.svg"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Levidev Studio",
+  "description": "Levidev Studio helps organizations turn ideas into software; it's a software house that blends innovation, where thoughtful engineering meets fresh ideas. Let's embark on a software journey together, where innovation meets expertise, and where your success is the ultimate goal. We partner with teams around the world to design interfaces, build software and games, develop AI systems, and ship products people can rely on. Speed, innovation, accuracy, and technical depth sit at the center of how we work, and your outcomes are what we optimize for. We design the interface. We also publish software. Ready to embark on a transformative journey? Connect with me on LinkedIn (https://www.linkedin.com/in/pahlevikun) and let's talk about your project.",
+  "url": "https://levidev.studio/",
+  "image": "https://levidev.studio/",
+  "email": "hello@levidev.studio",
+  "areaServed": "Worldwide",
+  "knowsLanguage": ["id", "en"],
+  "founder": {
+    "@type": "Person",
+    "name": "Farhan Yuda Pahlevi",
+    "url": "https://pahlevikun.id/",
+    "sameAs": [
+      "https://www.linkedin.com/in/pahlevikun",
+      "https://github.com/pahlevikun"
+    ]
+  },
+  "sameAs": [
+    "https://levidev.studio/",
+    "https://pahlevikun.id/",
+    "https://github.com/pahlevikun",
+    "https://www.linkedin.com/in/pahlevikun"
+  ]
+}

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 904 256" width="904" height="256" fill="none" role="img" aria-label="Levidev Studio">
+  <defs>
+    <style>
+      .rose-a { animation: rose-float 6s ease-in-out infinite; }
+      .rose-b { animation: rose-float 6s ease-in-out 0.2s infinite; }
+      .word-main, .word-sub { opacity: 1; }
+      .word-main { animation: word-appear 6s cubic-bezier(0.22, 1, 0.36, 1) infinite; }
+      .word-sub { animation: sub-appear 6s cubic-bezier(0.22, 1, 0.36, 1) infinite; }
+      .cursor-block { animation: cursor-blink 1.1s steps(2, start) infinite; }
+      .row-1 { animation: row-p1 6s ease-in-out infinite; }
+      .row-2 { animation: row-p2 6s ease-in-out infinite; }
+      .row-3 { animation: row-p3 6s ease-in-out infinite; }
+      .row-4 { animation: row-p4 6s ease-in-out infinite; }
+      .row-5 { animation: row-p5 6s ease-in-out infinite; }
+      @keyframes cursor-blink { 0%, 49% { opacity: 0.9; } 50%, 100% { opacity: 0.15; } }
+      @keyframes rose-float { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(3px, -5px); } }
+      @keyframes word-appear { 0%, 18% { opacity: 1; } 22%, 88% { opacity: 1; } 94%, 100% { opacity: 0.55; } }
+      @keyframes sub-appear { 0%, 26% { opacity: 1; } 30%, 88% { opacity: 1; } 94%, 100% { opacity: 0.55; } }
+      @keyframes row-p1 { 0%, 10% { opacity: 0.35; } 22%, 88% { opacity: 1; } 96%, 100% { opacity: 0.35; } }
+      @keyframes row-p2 { 0%, 18% { opacity: 0.35; } 30%, 88% { opacity: 1; } 96%, 100% { opacity: 0.35; } }
+      @keyframes row-p3 { 0%, 26% { opacity: 0.35; } 38%, 88% { opacity: 1; } 96%, 100% { opacity: 0.35; } }
+      @keyframes row-p4 { 0%, 34% { opacity: 0.35; } 46%, 88% { opacity: 1; } 96%, 100% { opacity: 0.35; } }
+      @keyframes row-p5 { 0%, 42% { opacity: 0.35; } 54%, 88% { opacity: 1; } 96%, 100% { opacity: 0.35; } }
+      @media (prefers-reduced-motion: reduce) {
+        .rose-a, .rose-b, .word-main, .word-sub, .cursor-block, .row-1, .row-2, .row-3, .row-4, .row-5 {
+          animation: none !important; opacity: 1 !important; transform: none !important;
+        }
+      }
+    </style>
+  </defs>
+  <rect width="904" height="256" fill="#f0e7d6"/>
+  <g transform="translate(42 42) scale(0.682540) translate(-50 -162)">
+    <rect class="bar-a" fill="#B2A994" x="50" y="162" width="24" height="232" rx="12"/>
+    <rect class="bar-b" fill="#B2A994" x="84" y="180" width="24" height="234" rx="12"/>
+    <path class="rose-a" fill="#98585C" d="M115 352 L177 316 L199 327 L115 375 Z"/>
+    <path class="rose-b" fill="#98585C" d="M115 390 L212 335 L233 347 L136 402 Z"/>
+  </g>
+  <g class="word-main" transform="translate(179.85 88.00) scale(0.620000 -0.620000)" fill="#14110d">
+    <path d="M6.69 53.81L13.07 53.81L13.07 5.93L37.70 5.93L37.70 0.00L6.69 0.00ZM74.59 6.46Q71.40 2.36 67.60 0.72Q63.80 -0.91 58.78 -0.91Q54.60 -0.91 51.26 0.57Q47.92 2.05 45.60 4.56Q43.28 7.07 42.03 10.49Q40.77 13.91 40.77 17.78Q40.77 21.89 42.14 25.35Q43.51 28.80 45.94 31.27Q48.37 33.74 51.72 35.11Q55.06 36.48 59.01 36.48Q62.74 36.48 65.85 35.23Q68.97 33.97 71.21 31.58Q73.45 29.18 74.67 25.73Q75.88 22.27 75.88 17.86L75.88 15.96L47.16 15.96Q47.31 13.68 48.26 11.59Q49.21 9.50 50.73 7.94Q52.25 6.38 54.30 5.47Q56.35 4.56 58.78 4.56Q62.66 4.56 65.32 5.93Q67.98 7.30 70.11 9.96ZM69.50 20.98Q69.35 25.54 66.54 28.27Q63.72 31.01 58.78 31.01Q53.84 31.01 50.80 28.27Q47.76 25.54 47.16 20.98ZM100.47 0.00L93.93 0.00L79.42 35.57L86.33 35.57L97.43 7.68L97.58 7.68L108.14 35.57L114.53 35.57ZM120.64 35.57L126.57 35.57L126.57 0.00L120.64 0.00ZM119.28 49.48Q119.28 51.22 120.53 52.52Q121.78 53.81 123.61 53.81Q125.43 53.81 126.69 52.52Q127.94 51.22 127.94 49.48Q127.94 47.58 126.72 46.36Q125.51 45.14 123.61 45.14Q121.71 45.14 120.49 46.36Q119.28 47.58 119.28 49.48ZM167.12 6.31L166.96 6.31Q165.29 3.27 161.68 1.18Q158.07 -0.91 153.28 -0.91Q149.56 -0.91 146.29 0.49Q143.02 1.90 140.63 4.41Q138.24 6.92 136.87 10.34Q135.50 13.76 135.50 17.78Q135.50 21.81 136.87 25.23Q138.24 28.65 140.67 31.16Q143.10 33.67 146.56 35.07Q150.02 36.48 154.20 36.48Q158.07 36.48 161.30 34.88Q164.53 33.29 166.96 30.40L167.12 30.40L167.12 57.46L173.04 57.46L173.04 0.00L167.12 0.00ZM167.12 17.78Q167.12 20.60 166.24 22.99Q165.37 25.38 163.70 27.17Q162.02 28.96 159.71 29.98Q157.39 31.01 154.50 31.01Q151.61 31.01 149.29 29.98Q146.98 28.96 145.30 27.17Q143.63 25.38 142.76 22.99Q141.88 20.60 141.88 17.78Q141.88 14.97 142.76 12.58Q143.63 10.18 145.30 8.40Q146.98 6.61 149.29 5.59Q151.61 4.56 154.50 4.56Q157.39 4.56 159.71 5.59Q162.02 6.61 163.70 8.40Q165.37 10.18 166.24 12.58Q167.12 14.97 167.12 17.78ZM214.96 6.46Q211.76 2.36 207.96 0.72Q204.16 -0.91 199.15 -0.91Q194.97 -0.91 191.62 0.57Q188.28 2.05 185.96 4.56Q183.64 7.07 182.39 10.49Q181.14 13.91 181.14 17.78Q181.14 21.89 182.50 25.35Q183.87 28.80 186.30 31.27Q188.74 33.74 192.08 35.11Q195.42 36.48 199.38 36.48Q203.10 36.48 206.22 35.23Q209.33 33.97 211.57 31.58Q213.82 29.18 215.03 25.73Q216.25 22.27 216.25 17.86L216.25 15.96L187.52 15.96Q187.67 13.68 188.62 11.59Q189.57 9.50 191.09 7.94Q192.61 6.38 194.66 5.47Q196.72 4.56 199.15 4.56Q203.02 4.56 205.68 5.93Q208.34 7.30 210.47 9.96ZM209.86 20.98Q209.71 25.54 206.90 28.27Q204.09 31.01 199.15 31.01Q194.21 31.01 191.17 28.27Q188.13 25.54 187.52 20.98ZM240.83 0.00L234.30 0.00L219.78 35.57L226.70 35.57L237.79 7.68L237.94 7.68L248.51 35.57L254.89 35.57Z"/>
+  </g>
+  <rect class="cursor-block" x="347.9" y="58" width="8" height="30" rx="2" fill="#98585C"/>
+  <g class="word-sub" transform="translate(184.49 108.00) scale(0.720000 -0.720000)" fill="#595246">
+    <path d="M7.84 10.79Q7.46 11.41 6.81 11.70Q6.16 11.99 5.46 11.99Q4.94 11.99 4.44 11.86Q3.94 11.73 3.54 11.47Q3.15 11.21 2.90 10.79Q2.66 10.36 2.66 9.79Q2.66 9.34 2.80 9.00Q2.94 8.66 3.26 8.38Q3.57 8.10 4.11 7.86Q4.64 7.62 5.42 7.38Q6.18 7.14 6.89 6.86Q7.60 6.59 8.15 6.16Q8.70 5.73 9.02 5.10Q9.34 4.46 9.34 3.50Q9.34 2.52 8.95 1.79Q8.57 1.07 7.93 0.60Q7.29 0.13 6.46 -0.10Q5.62 -0.33 4.74 -0.33Q4.16 -0.33 3.59 -0.23Q3.02 -0.13 2.49 0.08Q1.96 0.30 1.50 0.64Q1.04 0.98 0.70 1.48L2.03 2.57Q2.46 1.85 3.22 1.48Q3.98 1.11 4.83 1.11Q5.33 1.11 5.84 1.26Q6.35 1.41 6.75 1.69Q7.16 1.98 7.42 2.40Q7.68 2.83 7.68 3.39Q7.68 4.00 7.47 4.38Q7.27 4.75 6.84 5.03Q6.42 5.31 5.77 5.53Q5.12 5.75 4.25 6.05Q3.55 6.27 2.96 6.56Q2.37 6.84 1.93 7.26Q1.50 7.68 1.25 8.26Q1.00 8.84 1.00 9.66Q1.00 10.60 1.37 11.30Q1.74 12.01 2.37 12.48Q3.00 12.95 3.79 13.19Q4.59 13.43 5.46 13.43Q6.57 13.43 7.48 13.09Q8.40 12.75 9.12 11.90ZM31.20 11.65L26.87 11.65L26.87 0.00L25.32 0.00L25.32 11.65L20.99 11.65L20.99 13.10L31.20 13.10ZM53.36 5.00Q53.36 3.92 53.09 2.96Q52.82 2.00 52.24 1.27Q51.65 0.54 50.71 0.10Q49.77 -0.33 48.42 -0.33Q47.07 -0.33 46.12 0.10Q45.18 0.54 44.60 1.27Q44.01 2.00 43.75 2.96Q43.48 3.92 43.48 5.00L43.48 13.10L45.03 13.10L45.03 5.22Q45.03 4.42 45.20 3.68Q45.36 2.94 45.75 2.37Q46.14 1.79 46.79 1.45Q47.44 1.11 48.42 1.11Q49.40 1.11 50.05 1.45Q50.69 1.79 51.08 2.37Q51.47 2.94 51.64 3.68Q51.80 4.42 51.80 5.22L51.80 13.10L53.36 13.10ZM66.82 13.10L71.85 13.10Q72.50 13.10 73.22 12.95Q73.94 12.80 74.65 12.48Q75.36 12.15 76.02 11.64Q76.68 11.12 77.18 10.39Q77.68 9.66 77.97 8.70Q78.27 7.75 78.27 6.55Q78.27 5.35 77.97 4.39Q77.68 3.44 77.18 2.71Q76.68 1.98 76.02 1.46Q75.36 0.94 74.65 0.62Q73.94 0.30 73.22 0.15Q72.50 0.00 71.85 0.00L66.82 0.00ZM68.37 1.44L71.33 1.44Q72.46 1.44 73.42 1.74Q74.38 2.03 75.09 2.65Q75.79 3.27 76.20 4.24Q76.60 5.20 76.60 6.55Q76.60 7.90 76.20 8.86Q75.79 9.82 75.09 10.44Q74.38 11.06 73.42 11.36Q72.46 11.65 71.33 11.65L68.37 11.65ZM91.27 13.10L92.82 13.10L92.82 0.00L91.27 0.00ZM112.66 -0.33Q111.16 -0.33 109.91 0.18Q108.67 0.70 107.75 1.62Q106.83 2.53 106.33 3.80Q105.82 5.07 105.82 6.55Q105.82 8.03 106.33 9.30Q106.83 10.56 107.75 11.48Q108.67 12.39 109.91 12.91Q111.16 13.43 112.66 13.43Q114.16 13.43 115.41 12.91Q116.66 12.39 117.57 11.48Q118.49 10.56 119.00 9.30Q119.51 8.03 119.51 6.55Q119.51 5.07 119.00 3.80Q118.49 2.53 117.57 1.62Q116.66 0.70 115.41 0.18Q114.16 -0.33 112.66 -0.33ZM112.66 1.11Q113.81 1.11 114.76 1.54Q115.71 1.96 116.40 2.70Q117.08 3.44 117.46 4.43Q117.84 5.42 117.84 6.55Q117.84 7.68 117.46 8.67Q117.08 9.66 116.40 10.40Q115.71 11.14 114.76 11.56Q113.81 11.99 112.66 11.99Q111.52 11.99 110.56 11.56Q109.61 11.14 108.93 10.40Q108.24 9.66 107.86 8.67Q107.48 7.68 107.48 6.55Q107.48 5.42 107.86 4.43Q108.24 3.44 108.93 2.70Q109.61 1.96 110.56 1.54Q111.52 1.11 112.66 1.11Z"/>
+  </g>
+  <text x="185" y="140" font-family="IBM Plex Mono, ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="500" fill="#595246">Smartest way forward</text>
+  <g transform="translate(185,156)" font-family="IBM Plex Mono, ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" font-weight="600">
+    <rect width="120" height="26" rx="6" fill="#e9e1ce" stroke="#d5cbb8" stroke-width="1.2"/>
+    <circle cx="13" cy="13" r="3.5" fill="#98585C"/>
+    <text x="24" y="17" fill="#14110d">Clarity First</text>
+    <rect x="128" width="114" height="26" rx="6" fill="#e9e1ce" stroke="#d5cbb8" stroke-width="1.2"/>
+    <text x="140" y="17" fill="#14110d">Built to Last</text>
+  </g>
+  <text x="185" y="196" font-family="IBM Plex Sans, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" fill="#6a6355">Designed with care. Engineered to run.</text>
+  <text x="185" y="214" font-family="IBM Plex Sans, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11.5" fill="#6a6355">levidev.studio</text>
+  <g transform="translate(456,22)">
+    <rect width="424" height="212" rx="12" fill="#e9e1ce" stroke="#d5cbb8" stroke-width="1.5"/>
+    <g class="row-1">
+      <text x="24" y="42" font-family="IBM Plex Mono, ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="600" fill="#98585C">01</text>
+      <text x="58" y="42" font-family="IBM Plex Sans, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15.5" font-weight="500" fill="#14110d">Software Engineering</text>
+    </g>
+    <g class="row-2">
+      <text x="24" y="78" font-family="IBM Plex Mono, ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="600" fill="#98585C">02</text>
+      <text x="58" y="78" font-family="IBM Plex Sans, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15.5" font-weight="500" fill="#14110d">Game Development</text>
+    </g>
+    <g class="row-3">
+      <text x="24" y="114" font-family="IBM Plex Mono, ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="600" fill="#98585C">03</text>
+      <text x="58" y="114" font-family="IBM Plex Sans, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15.5" font-weight="500" fill="#14110d">AI Systems</text>
+    </g>
+    <g class="row-4">
+      <text x="24" y="150" font-family="IBM Plex Mono, ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="600" fill="#98585C">04</text>
+      <text x="58" y="150" font-family="IBM Plex Sans, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15.5" font-weight="500" fill="#14110d">UI &amp; UX Design</text>
+    </g>
+    <g class="row-5">
+      <text x="24" y="186" font-family="IBM Plex Mono, ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="600" fill="#98585C">05</text>
+      <text x="58" y="186" font-family="IBM Plex Sans, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15.5" font-weight="500" fill="#14110d">Software Publishing</text>
+    </g>
+  </g>
+</svg>
